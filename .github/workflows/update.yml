@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  stale:
+  copier:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
       - name: install copier
         run: pipx install copier
       - name: copier update
