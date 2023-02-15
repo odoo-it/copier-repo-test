@@ -1,0 +1,14 @@
+name: Copier Update
+
+on:
+  workflow_dispatch:
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: install copier
+        run: pipx install copier
+      - name: copier update
+        run: copier -f update
