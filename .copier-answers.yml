@@ -1,4 +1,4 @@
 # Changes here will be overwritten by Copier
 _commit: 127913c
-_src_path: ../copier-template/
+_src_path: git@github.com:odoo-it/copier-template.git
 project_name: Copier Test
