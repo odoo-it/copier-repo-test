@@ -1,4 +1,8 @@
 # Copier Test
 
 Hello!
-First version
+Second version
+
+-----
+
+None
